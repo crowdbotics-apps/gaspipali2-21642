@@ -6,7 +6,6 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import BlankScreen7147314Navigator from '../features/BlankScreen7147314/navigator';
-import SignUp21147128Navigator from '../features/SignUp21147128/navigator';
 import SignIn22147127Navigator from '../features/SignIn22147127/navigator';
 import UserProfile3147126Navigator from '../features/UserProfile3147126/navigator';
 import ArticleList4147125Navigator from '../features/ArticleList4147125/navigator';
@@ -21,7 +20,6 @@ const AppNavigator = {
 
     //@BlueprintNavigationInsertion
 BlankScreen7147314: { screen: BlankScreen7147314Navigator },
-SignUp21147128: { screen: SignUp21147128Navigator },
 SignIn22147127: { screen: SignIn22147127Navigator },
 UserProfile3147126: { screen: UserProfile3147126Navigator },
 ArticleList4147125: { screen: ArticleList4147125Navigator },
